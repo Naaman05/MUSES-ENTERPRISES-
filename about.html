@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<div class="top-bar">
+    <div class="language-select-top">
+        <button class="language-btn" onclick="toggleLanguageOptions()">
+            <i class="fas fa-globe"></i> English
+        </button>
+        <ul class="language-options" id="language-options-top">
+            <li onclick="changeLanguage('en')">English</li>
+            <li onclick="changeLanguage('ar')">Arabic</li>
+            <li onclick="changeLanguage('sw')">Swahili</li>
+        </ul>
+    </div>
+    <div class="search-container">
+        <input type="text" placeholder="Search..." id="search-input">
+        <button type="submit" onclick="searchFunction()"><i class="fas fa-search"></i></button>
+    </div>
+</div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naaman Muses Co & Ltd - About</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="loading-screen" id="loading-screen">
+
+    </div>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="img/Naamcol Logo.jpeg" alt="Naaman Muses Co & Ltd Logo">
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+            
+            <div class="burger">
+                <i class="fas fa-bars"></i>
+            </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="intro">
+            <div class="container">
+                <h2>About Us</h2>
+                <p>Naaman Muses Co & Ltd is a leading provider of high-quality marine and distribution services in Oman. Established with a vision to enhance the efficiency and reliability of maritime operations, we have built a reputation for excellence and innovation.</p>
+                <p>With decades of experience, our team offers unparalleled expertise and insight into the marine and distribution industries. We operate as exclusive agents and distributors for a variety of multinational brands, ensuring that our clients receive the best products and services available.</p>
+            </div>
+        </section>
+
+        <section class="team">
+            <div class="container">
+                <h2>Our Team</h2>
+                <div class="team-member">
+                    <img src="img/team1.jpg" alt="Team Member 1">
+                    <h3>John Doe</h3>
+                    <p>CEO</p>
+                </div>
+                <div class="team-member">
+                    <img src="img/team2.jpg" alt="Team Member 2">
+                    <h3>Jane Smith</h3>
+                    <p>COO</p>
+                </div>
+                <div class="team-member">
+                    <img src="img/team3.jpg" alt="Team Member 3">
+                    <h3>Emily Johnson</h3>
+                    <p>CFO</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Naaman Muses Co & Ltd. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
